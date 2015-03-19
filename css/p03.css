@@ -1,0 +1,98 @@
+
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em; 
+	color: black;
+}/*changes text to sans serif*/
+
+.bg-grey{
+	background-color: #cdcdcd;
+}
+
+h1{
+	font-size: 2.25em;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+h3{
+	font-size: 1.25em;
+}
+/*3 header selectors above makes headers change according to browsers default*/
+
+nav a{
+	color: #FFFFFF;
+	background-color: rgb(107,142,35);
+	display: inline-block;
+	padding: 0.5rem;
+	font-size: 1.25em; 
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+}/*basic nav bar*/
+
+nav a:hover{
+	background-color: #e1fc8e;
+	text-decoration: underline;
+}/*nav bar interactions, such as color changing and underlining of links*/
+
+a{
+	text-decoration: none;
+	color:#44902a;
+}/*removes irritating underlines*/
+
+a:hover{
+	color:#243c15;
+	text-decoration: underline;
+}/*changes color of links*/
+
+
+th{
+	background-color:  rgb(107,142,35);	
+	text-align: left;
+	padding:10px;
+	font-size: 1.1rem; 
+}/*highlights table headers*/
+
+td{
+	background-color: #e1fc8e;
+	text-align: left;
+	padding:10px;
+}
+
+ .form1, .form2, .form3, .found, .moredogs, .confirm, .note, .home, label, input{
+	float:left; 
+	clear:left;
+}/*vertically stacks form elements*/
+
+.moredogs, .confirm{
+	background-color: #cdcdcd;
+	padding: 0.10rem;
+}
+
+
+.moredogs:hover, .confirm:hover{
+	background-color: #b7ec6b;
+	text-decoration: underline;
+}/*two selectors above are the "next button"*/
+
+/*.parksrec, .legalservices, .contact{
+	background-color: #e5e5e5;
+	padding: 0.5rem;
+	min-height:100%;
+}*/
+
+/*.atm, .finance, .inperson, .internet-phonebank, .mail, .pad{
+	background-color: #e5e5e5;
+	padding: 0.5rem;
+}*/
+
+img{
+	height: auto;
+
+	max-width: 100%;
+}/*puppy banner*/
+

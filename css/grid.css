@@ -1,0 +1,50 @@
+.grid::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.col-1of3 {
+	float:left;
+	width:33.3%
+
+}
+
+@media (max-width: 62.5em) {
+
+	.col-1of3{
+		width:50%;
+	}
+}
+
+@media (max-width: 47em) {
+
+	.col-1of3{
+		width:100%;
+	}
+}
+
+/* Header grid */
+
+.col-1of2 {
+	float:left;
+	width:50%
+
+}
+
+@media (max-width: 70.7em) {
+
+	.col-1of2{
+		width:50%;
+
+}
+
+@media (max-width: 61em) {
+
+	.col-1of2{
+		width:100%;
+
+}
+
+
+
